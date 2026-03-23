@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+	<title>Pizza Order Form</title>
+	</head>
+	<body>
+		<h1>Order Your Pizza</h1>
+		<p>1 | Enter your personal Information</p>
+		<form action="">
+			<label for="fname">Full Name:</label><br>
+			<input type="text" id="fname" name="fname"><br>
+			<label for="email">Email:</label><br>
+			<input type="text" id="email" name="email"><br>
+			<label for="email">Email:</label><br>
+			<input type="text" id="email" name="email"><br>
+			<label for="Pnumber">Phone number:</label><br>
+			<input type="number" id="Pnumber" name="Pnumber" min="7" max="11"><br>
+			<label for="age">Age:</label><br>
+			<input type="number" id="Pnumber" name="Pnumber" min="13" max="99"><br>
+			
+			<p>2 | Select Pizza Size</p>
+			<p>Sizes:</p>
+			
+			<input type="radio" id="Size" name="Size" value="Small">
+			<label for="Size"> Small</label><br>
+			<input type="radio" id="Size" name="Size" value="Medium">
+			<label for="Size"> Medium</label><br>
+			<input type="radio" id="Size" name="Size" value="Large">
+			<label for="Size"> Large</label><br>
+			<input type="radio" id="Size" name="Size" value="ExtraLarge">
+			<label for="Size"> Extra Large</label><br>
+			
+			<p>3 | Select a crust type</p>
+			
+			<label for="crust">Choose a crust:</label>
+			<select id="crust" name="crust">
+				<option placeholder="Choose a Crust" readonly>--Choose a Crust--</option>
+				<option value="Thin">Thin</option>
+				<option value="Thick">Thick</option>
+				<option value="Stuffed">Stuffed</option>
+				<option value="Gluten">Gluten-Free</option>
+			</select>
+			
+			<p>4 | Select a sauce</p>
+			
+			<label for="crust">Choose a crust:</label>
+			<select id="crust" name="crust">
+				<optgroup label="Classic">
+				<option value="Tomato">Tomato</option>
+				<option value="GarlicW">Garlic White</option>
+				</optgroup>
+				<opt>
+				<option value="Stuffed">Stuffed</option>
+				<option value="Gluten">Gluten-Free</option>
+			</select>
+			
+			
+			<br><input type="submit">
+		</form>
+	</body>
+</html>	
+	
